@@ -278,16 +278,6 @@
 
           
             
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/2019/02/17/hello-world/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count gitment-comments-count" data-xid="/2019/02/17/hello-world/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
           
 
           
@@ -365,13 +355,6 @@
 
 
           
-
-  
-    <div class="comments" id="comments">
-      
-        <div id="gitment-container"></div>
-      
-    </div>
 
   
 
@@ -644,45 +627,26 @@
 
 
 
-<!-- LOCAL: You can save these files to your site and update links -->
-    
-        
-        <link rel="stylesheet" href="https://horan-g.github.io/gitment/style/default.css">
-        <script src="https://horan-g.github.io/gitment/dist/gitment.browser.js"></script>
-    
-<!-- END LOCAL -->
-
-    
-
-    
-      <script type="text/javascript">
-      function renderGitment(){
-        var gitment = new Gitmint({
-            id: '1550388572873', 
-            owner: 'Horan-G',
-            repo: 'Horan-G.github.io',
-            
-            lang: "" || navigator.language || navigator.systemLanguage || navigator.userLanguage,
-            
-            oauth: {
-            
-            
-                client_secret: '4a4de6ac9301bf27be855db83bf81d868a923267',
-            
-                client_id: '615c186f21127cf507b5'
-            }});
-        gitment.render('gitment-container');
-      }
-
-      
-      renderGitment();
-      
-      </script>
-    
 
 
 
 
+
+  <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+  <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+  <script src="https://cdn.bootcss.com/blueimp-md5/2.10.0/js/md5.min.js"></script>
+  <script type="text/javascript">
+       var gitalk = new Gitalk({
+           clientID: '615c186f21127cf507b5',
+           clientSecret: '4a4de6ac9301bf27be855db83bf81d868a923267',
+           repo: 'Horan-G.github.io',
+           owner: 'Horan-G',
+           admin: ['Horan'],
+           id: md5(window.location.pathname),
+           distractionFreeMode: 'true'
+       })
+       gitalk.render('gitalk-container')
+       </script>
 
 
 
