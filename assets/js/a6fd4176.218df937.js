@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhoran=self.webpackChunkhoran||[]).push([[110],{9112:a=>{a.exports=JSON.parse('{"label":"tmp","permalink":"/blog/tags/tmp","allTagsPath":"/blog/tags","count":1}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhoran=self.webpackChunkhoran||[]).push([[416],{1755:a=>{a.exports=JSON.parse('{"label":"\u77ed\u94fe","permalink":"/tags/\u77ed\u94fe","allTagsPath":"/tags","count":1,"items":[{"id":"\u77ed\u94fe\u670d\u52a1/2022-02-04-KGS","title":"KGS","description":"\u65b9\u6848\u9009\u62e9","permalink":"/"}]}')}}]);

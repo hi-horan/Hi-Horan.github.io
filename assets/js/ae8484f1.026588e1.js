@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkhoran=self.webpackChunkhoran||[]).push([[563],{231:s=>{s.exports=JSON.parse('{"label":"tmp","permalink":"/docs/tags/tmp","allTagsPath":"/docs/tags","count":1,"items":[{"id":"2023-02-26-first-doc","title":"first-doc","description":"\u642d\u5efa\u535a\u5ba2","permalink":"/docs/first-doc"}]}')}}]);

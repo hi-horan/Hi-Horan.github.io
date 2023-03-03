@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhoran=self.webpackChunkhoran||[]).push([[121],{8070:a=>{a.exports=JSON.parse('[{"label":"\u77ed\u94fe","permalink":"/tags/\u77ed\u94fe","count":1},{"label":"golang","permalink":"/tags/golang","count":1}]')}}]);
