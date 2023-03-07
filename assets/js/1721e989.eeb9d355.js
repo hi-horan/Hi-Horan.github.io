@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkhoran=self.webpackChunkhoran||[]).push([[750],{1978:a=>{a.exports=JSON.parse('{"label":"golang","permalink":"/tags/golang","allTagsPath":"/tags","count":1,"items":[{"id":"\u77ed\u94fe\u670d\u52a1/2022-02-04-KGS","title":"KGS","description":"\u65b9\u6848\u9009\u62e9","permalink":"/"}]}')}}]);
